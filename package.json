@@ -9,7 +9,10 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.3.1",
     "vue": "^2.6.10",
+    "vue-icons": "^2.0.0",
     "vue-materialize": "^1.0.0"
   },
   "devDependencies": {
