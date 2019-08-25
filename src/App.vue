@@ -142,7 +142,7 @@ export default {
           let dañoEnemigo = Math.floor(Math.random() * 5 + 1) + 5;
           this.saludUsuario = this.saludUsuario - dañoEnemigo;
 
-          var mensaje = $(
+          let mensaje = $(
             '<span class="blue-text">Ataque especial del enemigo pierdes ' +
               dañoEnemigo +
               " de salud</span>"
@@ -160,7 +160,7 @@ export default {
             this.saludEnemigo = this.saludEnemigo + curacion;
           }
 
-          var mensaje = $(
+           let mensaje = $(
             '<span class="amber-text">El enemigo se cura ' +
               curacion +
               " </span>"
@@ -172,7 +172,7 @@ export default {
           dañoEnemigo = Math.floor(Math.random() * 5 + 1);
           this.saludUsuario = this.saludUsuario - dañoEnemigo;
 
-          var mensaje = $(
+          let mensaje = $(
             '<span class="red-text">Pierdes ' + dañoEnemigo + " de salud</span>"
           );
           break;
